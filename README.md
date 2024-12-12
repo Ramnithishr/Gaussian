@@ -18,9 +18,9 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Program:
 ```
-/*
+
 Program to find the solution of a matrix using Gaussian Elimination.
-Developed by: RAMNITHISH.R
+Developed by: Ramnithish.R
 RegisterNumber: 24900839
 import numpy as np
 import sys
@@ -44,14 +44,13 @@ for i in range(n-2,-1,-1):
         x[i]=x[i]-a[i][j]*x[j]
     x[i]= x[i]/a[i][i]
 for i in range(n):
-    print('X%d = %0.02f'%(i,x[i]), end=' ')
-*/
+     print('X%d = %0.02f'%(i,x[i]), end=' ')
+
 ```
 
 ## Output:
 
 ![Screenshot 2024-12-10 185831](https://github.com/user-attachments/assets/36fa1dd4-8111-40a8-8c99-12a041b077fc)
-
 
 ## Result:
 Thus the program to find the solution of a matrix using Gaussian Elimination is written and verified using python programming.
