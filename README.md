@@ -8,12 +8,12 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-```
+
 1. Initialize nx(n+1) matrix a and a solution vector x with zeros.
 2.Populate the argument matrix a with co efficient from user input
 3.Starting from the last equation,solve for x values backward using the transformed matrix a
 4.Run the code
-```
+
 
 
 ## Program:
